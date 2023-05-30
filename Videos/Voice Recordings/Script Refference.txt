@@ -1,0 +1,37 @@
+Mental Health Online Journal:
+00:00:00-00:00:07  Here is my first interface: a Mental Health Online Journal. This is the home page, from here a user can login in and start their journalling.
+
+00:00:05 - from the new separate clip:
+00:00:06 - insert new clip - When a user logins with the wrong details this what happens, the user will get an invalid user message. If nothing is there, the alert says that the input isnt a valid email.
+
+Lets try seeing it with a user that has registered already.
+
+00:00:00-00:00:25 A user can login  by using an email and password. Which takes them to the journal home page, where there is a welcome banner.
+
+00:00:23 - from the new separate clip:
+00:00:26 - insert new clip - when user wants to create an account a user will need to fill in all the inputs and have a valid email, otherwise the system will prompt it to do so.
+
+Let's now try to do it correctly:
+
+00:00:27-00:00:52  A user can also register by typing their first name, last name, email and password they choose to have associated with the account. This logs them in showing the home page.
+00:00:52-00:01:10  A user then can start journalling by pressing the create a new journal entry, which takes the user to a page where there are space for a title and entry. A user will be able to type something in both boxes. Once they click save journal entry - an alert shows up.
+
+Note: remove the snippet where texting suggestions appear.
+
+00:01:10-00:01:12  It redirects to the history page, where a user can see their previous journal entries.
+
+00:01:12-00:01:25  The settings page allow a user chnage the theme they journal in, according to their prefference of a 'dark/light mode'.
+
+Separate Clip:
+00:01:27-end: If the user logs out , the website will remeber which theme is currently on for the user, so when they log back in, the theme picked originally is already there.
+
+Shape Learning Tool:
+00:00:00-00:00:07  Here is my second interface: a shape learing tool that is navigated by parents. Here is my home page. Lets go explore the info page.
+
+00:00:07-  Note: at the beginning the logo on top should be colourful so technically the clip should start: 00:00:09-00:00:18
+This toggle is here in case of a user's child in need of a grayscale filter if the child has a visual impaired disability for example colour blindness.
+Here is the tool with the colourful aspects in full.
+ The tool works by clicking on an indivual shape page, that allows the user to click on the show shape button which will make the shape appear infront of the everyday objects.
+
+00:00:18-00:00:55  With the grayscale filter on: you can see that allow the images become grayscale and so do the highlighted images become grayscale.
+00:00:56- end The quiz functionality has not been impleented yet,  but will be a space where user's children can test their skills to remeber which shapes are which shapes.

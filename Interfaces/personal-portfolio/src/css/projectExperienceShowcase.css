@@ -1,0 +1,114 @@
+.projectExperienceShowcaseContainer {
+    background-image: url("../graphics/purple-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+
+.showcaseTitle {
+    display: block;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Electrolize";
+
+    padding-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.ProjectCardShowcaseContainer {
+    width: 60vw;
+    height: min-content;
+
+    border-radius: 10px;
+
+    position: relative;
+    z-index: 0;
+    margin: auto;
+    background-color: black;
+    padding: 5% 8%;
+}
+
+.decorativeBorder {
+    border-top: 3px solid white;
+}
+
+.projectTitleLeft {
+    color: white;
+    font-size: 35px;
+    text-align: left;
+    font-weight: 10px;
+    font-family: "Electrolize";
+}
+
+.projectTitleRight {
+    color: white;
+    font-size: 35px;
+    text-align: right;
+    font-weight: 10px;
+    font-family: "Electrolize";
+}
+
+.projectDescription {
+    color: white;
+    font-size: 20px;
+    font-family: "Baskerville";
+}
+
+.projectImageRight {
+    position: absolute;
+    top: 40vh;
+    right: 6vw;
+    z-index: 100;
+
+    border-radius: 10px;
+
+    width: 22vw;
+    height: 25vh;
+}
+
+.projectImageLeft {
+    position: absolute;
+    left: 150px;
+    bottom: 0px;
+    z-index: 100;
+
+    border-radius: 10px;
+
+    width: min-content;
+    height: 25vh;
+}
+
+.seeMore {
+    position: absolute;
+    right: 35%;
+    top: 45%;
+
+    color: white;
+    padding: 1%;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: brown;
+    border-radius: 5px;
+    
+    height: min-content;
+}
+
+.seeMore:hover {
+    color: white;
+    padding: 1%;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: brown;
+    border-radius: 5px;
+    
+    height: min-content;
+}
+
+.playIcon{
+    size: 2px;
+}

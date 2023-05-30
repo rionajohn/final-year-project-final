@@ -1,0 +1,53 @@
+.StarPadding {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.StarContainerBox {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    background-color: #7733b4;
+    border-radius: 5px;
+    padding: 40px;
+}
+
+.ChristmasStarImg {
+    width: min-content;
+    height: 500px;
+}
+
+.VerticalBreak {
+    width: 40px;
+    height: 500px;
+    background-color: white;
+    border: 10px;
+}
+
+.StarDescription {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: "Sasoon Primary";
+    color: white;
+    background-color: #7733b4;
+    border-radius: 5px;
+    width: 500px;
+    height: 580px;
+    padding: 40px;
+    font-size: 150%;
+}
+
+.StarOnObject {
+    width: min-content;
+    height: 500px;
+}
+
+.showStarShapeBtn{
+    color: #7733b4;
+    font-weight: bold;
+    border-color: black;
+    border-radius: 5px;
+}

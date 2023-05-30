@@ -1,0 +1,70 @@
+.card{
+    color: #fff;
+    background-color: #6c757d;
+    border: #6c757d;
+    text-align: left;
+}
+
+.Important{
+    color: #fff;
+    background-color: #891a1a;
+    border: #f79494;
+    text-align: left;
+}
+
+.SignIn{
+    color: #fff;
+    background-color: #1b476e;
+    border: #6c757d;
+    text-align: left;
+}
+
+.signInSchWork {
+    color: #fff;
+    background-color: #275b88;
+    border: #677b8d;
+    text-align: left;
+}
+
+.signInPersonal {
+    color: #fff;
+    background-color: #275b88;
+    border: #677b8d;
+    text-align: left;
+}
+
+.SignInDevice{
+    color: #fff;
+    background-color: #2c5f69;
+    border: #6c757d;
+    text-align: left;
+}
+
+.Iris{
+    color: #fff;
+    background-color: #739da5;
+    border: #334e54;
+    text-align: left;
+}
+
+.Pin{
+    color: #fff;
+    background-color: #739da5;
+    border: #334e54;
+    text-align: left;
+}
+
+.Tips{
+    color: #fff;
+    background-color: #7d4ce0;
+    border: #442d63;
+    text-align: left;
+}
+
+/* Find Out More Page */
+.findOutMore {
+    color: #fff;
+    background-color: #6c757d;
+    border: #221447;
+    text-align: left;
+}

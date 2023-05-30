@@ -1,0 +1,21 @@
+.welcomeDivContainer {
+    background-image: url("../graphics/purple-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.center {
+    text-align: center;
+}
+
+h1{
+    font-size: 100px;
+    color: white;
+    font-family: 'Pacifico';
+}

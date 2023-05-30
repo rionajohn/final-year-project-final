@@ -1,0 +1,22 @@
+.chip {
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    padding: 0 25px;
+    height: 40px;
+    font-size: 16px;
+    line-height: 40px;
+    border-radius: 25px;
+    margin-bottom: 7px;
+    margin-right: 7px;
+    background-color: #482f5b;
+}
+
+.closebtn {
+    padding-left: 10px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 20px;
+    cursor: pointer;
+}

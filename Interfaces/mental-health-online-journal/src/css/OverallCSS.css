@@ -1,0 +1,583 @@
+/* Default CSS */
+/* General CSS */
+.midnight-theme {
+    background-image: linear-gradient(to right, rgb(115, 150, 186), rgb(147, 160, 174));
+}
+
+/* Home Page (user logged out) */
+body  {
+    background-image: linear-gradient(to right, rgb(137, 220, 215), rgb(172, 159, 240));
+}
+
+.welcomeContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(49, 119, 115);
+    color: white;
+    border-radius: 8px;
+    padding: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.welcomeContainer .startJournal {
+    width: 30%;
+    background-color: white;
+    color: midnightblue;
+
+}
+
+.welcomeContainer .startJournal:hover {
+    background-color: rgb(203, 197, 233);
+    border-color: rgb(203, 197, 233);
+    color: midnightblue;
+}
+
+/* Help Page (user logged out) */
+.homeHelpContainer{
+    background-color: rgb(49, 119, 115);
+    color: white;
+    border-radius: 8px;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+.MHImage{
+    margin: auto;
+    width: 50%;
+}
+
+.supportContainer{
+    background-color: rgb(100, 160, 157);
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+    padding: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+
+.supportSubContainer{
+    text-align: left;
+}
+
+.supportSubContainer .help-links {
+    color: rgb(73, 40, 234);
+}
+
+/* Login Page  */
+/* Refference: https://github.com/atharvadeosthale/firebase-auth-article/tree/master/src 
+  Author: Atharva Deosthale */
+
+.loginPage {
+    background-image: linear-gradient(to right, rgb(137, 220, 215), rgb(172, 159, 240));
+}
+
+.login {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login__container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(49, 119, 115);
+    padding: 30px;
+}
+
+.login__email__txtBox {
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.login__password__txtBox {
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.login__btn {
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    border: none;
+    color: white;
+    background-color: black;
+}
+
+/* My Custom CSS below */
+.register-text {
+    color: white;
+}
+
+.register-link {
+    color: white;
+}
+
+.register-link:hover {
+    color: white;
+}
+
+/* Register Page */
+/* Refference: https://github.com/atharvadeosthale/firebase-auth-article/tree/master/src 
+  Author: Atharva Deosthale */
+
+.registerPage {
+    background-image: linear-gradient(to right, rgb(137, 220, 215), rgb(172, 159, 240));
+}
+
+.register {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.register__container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(49, 119, 115);
+    padding: 30px;
+}
+
+.register__textBox {
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.register__btn {
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    border: none;
+    color: white;
+    background-color: black;
+}
+
+/* My Custom CSS below */
+.login-text {
+    color: white;
+}
+
+.login-link {
+    color: white;
+}
+
+.login-link:hover {
+    color: white;
+}
+
+/* Navbar CSS */
+.header {
+    text-align: center;
+}
+
+.navbar {
+    background-color: black;
+}
+
+.btn {
+    background-color: rgb(49, 119, 115);
+    border-color: rgb(49, 119, 115);
+    color: white;
+}
+
+.btn:hover {
+    background-color: rgb(132, 114, 219);
+    border-color: rgb(132, 114, 219);
+    color: white;
+}
+
+.navbar-brand{
+    color: white;
+}
+
+.navbar-brand{
+    color: white;
+    text-decoration: none;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Midnight Navbar CSS */
+.midnight-theme .header {
+    text-align: center;
+}
+
+.midnight-theme .navbar {
+    background-color: black;
+}
+
+.midnight-theme .btn {
+    background-color: lightslategrey;
+    border-color: lightslategrey;
+    color: white;
+}
+
+.midnight-theme .btn:hover {
+    background-color: lightslategrey;
+    border-color: lightslategrey;
+    color: white;
+}
+
+.midnight-theme .nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+.midnight-theme .nav-link:hover {
+    color: white;
+}
+
+.midnight-theme .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Home Page */
+/* Reference: https://github.com/atharvadeosthale/firebase-auth-article/tree/master/src 
+  Author: Atharva Deosthale */
+
+.midnight-theme .journal-home-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.midnight-theme .home_container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #dcdcdc;
+    padding: 30px;
+}
+
+.midnight-theme .home__btn {
+    padding: 10px;
+    font-size: 18px;
+    margin-top: 10px;
+    border: none;
+    color: white;
+    background-color: black;
+}
+
+.midnight-theme .journal-home div {
+    margin-top: 7px;
+}
+
+/* Container CSS */
+.midnight-theme .container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: lightslategrey;
+    color: white;
+    padding: 30px;
+}
+
+/* Create Journal Entry Page */
+.midnight-theme .newEntryBtn {
+    background-color: midnightblue;
+    border-color: midnightblue;
+}
+
+.midnight-theme .newEntryBtn:hover {
+    background-color: midnightblue;
+    border-color: midnightblue;
+
+}
+
+/* New Journal Entry Page */
+.midnight-theme .label {
+    text-align: left;
+}
+
+.midnight-theme .saveNewEntryBtn {
+    background-color: midnightblue;
+    border-color: midnightblue;
+}
+
+.midnight-theme .saveNewEntryBtn:hover {
+    background-color: midnightblue;
+    border-color: midnightblue;
+
+}
+
+.midnight-theme .form-control {
+    background-color: whitesmoke;
+    border-color: whitesmoke;
+}
+
+.midnight-theme .form-control:focus {
+    background-color: whitesmoke;
+    border-color: whitesmoke;
+}
+
+/* Journal History Table */
+.midnight-theme .historyTable {
+    background-color: black;
+    color: whitesmoke;
+}
+
+.midnight-theme tr:nth-child(even) {
+    background-color: rgb(42, 41, 41);
+}
+
+/* Sunshine Theme */
+/* General CSS */
+.sunshine-theme {
+    background-image: linear-gradient(to right, rgb(235, 190, 159), rgb(239, 218, 135));
+}
+
+/* Login Page  */
+/* Refference: https://github.com/atharvadeosthale/firebase-auth-article/tree/master/src 
+  Author: Atharva Deosthale */
+
+.sunshine-theme .login {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sunshine-theme .login__container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #dca05f;
+    padding: 30px;
+}
+
+.sunshine-theme .login__email__txtBox  {
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.sunshine-theme .login__password__txtBox  {
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.sunshine-theme .login__btn {
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    border: none;
+    color: white;
+    background-color: black;
+}
+
+/* My Custom CSS below */
+.sunshine-theme .register-text {
+    color: white;
+}
+
+.sunshine-theme .register-link {
+    color: white;
+}
+
+.sunshine-theme .register-link:hover {
+    color: white;
+}
+
+/* Register Page */
+/* Refference: https://github.com/atharvadeosthale/firebase-auth-article/tree/master/src 
+  Author: Atharva Deosthale */
+
+.sunshine-theme .register {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sunshine-theme .register__container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #dca05f;
+    padding: 30px;
+}
+
+.sunshine-theme .register__textBox {
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.sunshine-theme .register__btn {
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    border: none;
+    color: white;
+    background-color: black;
+}
+
+/* My Custom CSS below */
+.sunshine-theme .login-text {
+    color: white;
+}
+
+.sunshine-theme .login-link {
+    color: white;
+}
+
+.sunshine-theme .login-link:hover {
+    color: white;
+}
+
+/* Navbar CSS */
+.sunshine-theme .header {
+    text-align: center;
+}
+
+.sunshine-theme .navbar {
+    background-color: #e0b465;
+}
+
+.sunshine-theme .btn {
+    background-color: #e86e2b;
+    border-color: #e86e2b;
+    color: white;
+}
+
+.sunshine-theme .btn:hover {
+    background-color: #e86e2b;
+    border-color: #e86e2b;
+    color: white
+}
+
+.sunshine-theme .nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+.sunshine-theme .nav-link:hover {
+    color: white;
+}
+
+.sunshine-theme .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Home Page */
+/* Reference: https://github.com/atharvadeosthale/firebase-auth-article/tree/master/src 
+  Author: Atharva Deosthale */
+
+.sunshine-theme .journal-home-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sunshine-theme .home_container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #dcdcdc;
+    padding: 30px;
+}
+
+.sunshine-theme .home__btn {
+    padding: 10px;
+    font-size: 18px;
+    margin-top: 10px;
+    border: none;
+    color: white;
+    background-color: black;
+}
+
+.sunshine-theme .journal-home div {
+    margin-top: 7px;
+}
+
+/* Container CSS */
+.sunshine-theme .container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #d99358;
+    color: white;
+    padding: 30px;
+}
+
+/* Create Journal Entry Page */
+.sunshine-theme .newEntryBtn {
+    background-color: #e0b465;
+    border-color: #e0b465;
+}
+
+.sunshine-theme .newEntryBtn:hover {
+    background-color: #e0b465;
+    border-color: #e0b465;
+
+}
+
+/* New Journal Entry Page */
+.sunshine-theme .label {
+    text-align: left;
+}
+
+.sunshine-theme .saveEntryBtn {
+    background-color: #e0b465;
+    border-color: #e0b465;
+}
+
+.sunshine-theme .saveEntryBtn:hover {
+    background-color: #e0b465;
+    border-color: #e0b465;
+
+}
+
+.sunshine-theme .form-control {
+    background-color: whitesmoke;
+    border-color: whitesmoke;
+}
+
+.sunshine-theme .form-control:focus {
+    background-color: whitesmoke;
+    border-color: whitesmoke;
+}
+
+/* Journal History Table */
+.sunshine-theme .historyTable {
+    background-color: #d99358;
+    border-color: black;
+}
+
+.sunshine-theme tr {
+    color: black;
+}
+
+.sunshine-theme tr:nth-child(even) {
+    background-color: #d99358;
+
+}

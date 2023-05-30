@@ -1,0 +1,52 @@
+.HeartPadding {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.HeartContainerBox {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: black;
+    background-color: #fc9bc8;
+    border-radius: 5px;
+    padding: 40px;
+}
+
+.strawberryHeart {
+    width: min-content;
+    height: 500px;
+}
+
+.VerticalBreak{
+    width: 40px;
+    height: 500px;
+    border: 10px;
+}
+
+.HeartDescription {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: "Sasoon Primary";
+    color: black;
+    background-color: #fc9bc8;
+    border-radius: 5px;
+    width: 500px;
+    height: 580px;
+    padding: 40px;
+    font-size: 150%;
+}
+
+.HeartOnObject{
+    width: min-content;
+    height: 500px;
+}
+
+.showHeartShapeBtn{
+    color: #fc9bc8;
+    font-weight: bold;
+    border-color: black;
+    border-radius: 5px;
+}

@@ -1,0 +1,24 @@
+.InfoPadding {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.InfoContainerBox {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: "Sasoon Primary";
+    background-color: darkslategrey;
+    color: white;
+    width: 400px;
+    padding: 50px;
+    
+}
+
+.btn-grayscale{
+    background-color: white;
+    color: darkslategrey;
+    border-color: black;
+    font-size: 20px;
+}

@@ -1,0 +1,12 @@
+.Hummingbird .carousel-inner{
+    height: 500px
+  }
+  
+  .Hummingbird .carousel-item{
+    background-color: black;
+    height: 100%;
+  }
+  
+  .Hummingbird img{
+    height: 100%;
+  }

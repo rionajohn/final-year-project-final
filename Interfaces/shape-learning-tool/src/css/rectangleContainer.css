@@ -1,0 +1,54 @@
+.RectanglePadding {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.RectangleContainerBox {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    background-color: #12a92d;
+    border-radius: 5px;
+    padding: 40px;
+}
+
+.doorRectangleImg {
+    width: min-content;
+    height: 500px;
+}
+
+.VerticalBreak{
+    width: 40px;
+    height: 500px;
+    background-color: white;
+    border: 10px;
+}
+
+.RectangleDescription {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: "Sasoon Primary";
+    color: white;
+    background-color: #12a92d;
+    border-radius: 5px;
+    width: 500px;
+    height: 580px;
+    padding: 40px;
+    font-size: 150%;
+}
+
+.RectangleOnObject{
+    width: min-content;
+    height: 500px;
+}
+
+.showRectangleShapeBtn{
+    color: #12a92d;
+    background-color: black;
+    font-weight: bold;
+    border-color: black;
+    border-radius: 5px;
+}

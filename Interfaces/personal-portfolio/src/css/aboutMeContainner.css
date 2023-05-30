@@ -1,0 +1,12 @@
+.aboutMeContainner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 20vh;
+}
+
+p{
+    font-size: 20px;
+    font-family: "Baskerville";
+}

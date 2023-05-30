@@ -1,0 +1,25 @@
+.label{
+    text-align: left;
+}
+
+.saveEntryBtn{
+    background-color: midnightblue;
+    border-color: midnightblue;
+}
+
+.saveEntryBtn:hover{
+    background-color: midnightblue;
+    border-color: midnightblue;
+    
+}
+
+.form-control{
+    background-color: whitesmoke;
+    border-color: whitesmoke;
+}
+
+.form-control:focus{
+    background-color: whitesmoke;
+    border-color: whitesmoke;
+}
+

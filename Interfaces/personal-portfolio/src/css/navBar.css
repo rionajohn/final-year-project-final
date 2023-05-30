@@ -1,0 +1,19 @@
+.navbar {
+    background-color: "transparent";
+    font-family: "Electrolize";
+}
+
+.navbar a {
+    color: white;
+    font-weight: bold;
+    
+}
+
+.navbar a:hover {
+    color: white;
+    font-weight: bold;
+}
+
+.nav-item {
+    font-size: 120%;
+}

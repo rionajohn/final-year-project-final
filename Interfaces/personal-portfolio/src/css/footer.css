@@ -1,0 +1,41 @@
+.footer-container {
+    text-align: center;
+    background-color: rgb(120,96,138);
+    color: white;
+}
+
+.grid-container {
+    padding: 4px;
+}
+
+.contact-info {
+    margin-bottom: 4px;
+}
+
+.linkedInBtn {
+    color: white;
+    margin: 20px;
+    font-size: 3vh;
+}
+
+.linkedInBtn:hover {
+    color: white;
+}
+
+.gitHubBtn {
+    color: white;
+    margin: 20px;
+    font-size: 3vh;
+}
+
+.gitHubBtn:hover {
+    color: white;
+}
+
+.copyRightStatement{
+    color: white;
+    font-family: "Baskerville";
+    background-color: rgb(72,47,91);
+    text-align: center;
+    padding: 4px;
+}

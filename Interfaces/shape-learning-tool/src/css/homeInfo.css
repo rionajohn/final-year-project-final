@@ -1,0 +1,38 @@
+.page{
+    display: flex;
+    width: 100%;
+}
+
+.informParentImgContainer{
+    background-image: url(../graphics/colourful-container-resize.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    width: 400px;
+    height: 500px;
+    position: relative;
+}
+
+.bold {
+    font-weight: 700;
+    font-family: 'Sasoon Primary';
+}
+
+.informParent{
+    font-family: 'Sasoon Primary';
+    width: auto;
+    padding: 50px;
+    size: 0.5rem;
+    position: relative;
+    top: 18%;
+    /* left: 0%; */
+}
+
+.informParent p{
+    margin: 0;
+}
+

@@ -1,0 +1,28 @@
+.header {
+    text-align: center;
+}
+
+.btn{
+    background-color: lightslategrey;
+    color: white;
+}
+
+.btn:hover{
+    background-color: lightslategrey;
+    color: white;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.center{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}

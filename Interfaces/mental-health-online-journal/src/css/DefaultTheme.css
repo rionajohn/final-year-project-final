@@ -1,0 +1,229 @@
+/* General CSS */
+body {
+  background-image: linear-gradient(to right, rgb(115, 150, 186), rgb(147, 160, 174));
+}
+
+/* Login Page  */
+/* Refference: https://github.com/atharvadeosthale/firebase-auth-article/tree/master/src 
+Author: Atharva Deosthale */
+
+.login {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login__container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: lightslategrey;
+  padding: 30px;
+}
+
+.login__txtBox {
+  padding: 10px;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.login__btn {
+  padding: 10px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  border: none;
+  color: white;
+  background-color: black;
+}
+
+/* My Custom CSS below */
+.register-text {
+  color: white;
+}
+
+.register-link {
+  color: white;
+}
+
+.register-link:hover {
+  color: white;
+}
+
+/* Register Page */
+/* Refference: https://github.com/atharvadeosthale/firebase-auth-article/tree/master/src 
+Author: Atharva Deosthale */
+
+.register {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.register__container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: lightslategrey;
+  padding: 30px;
+}
+
+.register__textBox {
+  padding: 10px;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.register__btn {
+  padding: 10px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  border: none;
+  color: white;
+  background-color: black;
+}
+
+/* My Custom CSS below */
+.login-text {
+  color: white;
+}
+
+.login-link {
+  color: white;
+}
+
+.login-link:hover {
+  color: white;
+}
+
+/* Navbar CSS */
+.header {
+  text-align: center;
+}
+
+.navbar {
+  background-color: black;
+}
+
+
+.btn {
+  background-color: lightslategrey;
+  border-color: lightslategrey;
+  color: white;
+}
+
+.btn:hover {
+  background-color: lightslategrey;
+  border-color: lightslategrey;
+  color: white;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: white;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Home Page */
+/* Reference: https://github.com/atharvadeosthale/firebase-auth-article/tree/master/src 
+Author: Atharva Deosthale */
+
+.journal-home-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home_container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #dcdcdc;
+  padding: 30px;
+}
+
+.home__btn {
+  padding: 10px;
+  font-size: 18px;
+  margin-top: 10px;
+  border: none;
+  color: white;
+  background-color: black;
+}
+
+.journal-home div {
+  margin-top: 7px;
+}
+
+/* Container CSS */
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: lightslategrey;
+  color: white;
+  padding: 30px;
+}
+
+/* Create Journal Entry Page */
+.newEntryBtn {
+  background-color: midnightblue;
+  border-color: midnightblue;
+}
+
+.newEntryBtn:hover {
+  background-color: midnightblue;
+  border-color: midnightblue;
+
+}
+
+/* New Journal Entry Page */
+.label {
+  text-align: left;
+}
+
+.saveNewEntryBtn {
+  background-color: midnightblue;
+  border-color: midnightblue;
+}
+
+.saveNewEntryBtn:hover {
+  background-color: midnightblue;
+  border-color: midnightblue;
+
+}
+
+.form-control {
+  background-color: whitesmoke;
+  border-color: whitesmoke;
+}
+
+.form-control:focus {
+  background-color: whitesmoke;
+  border-color: whitesmoke;
+}
+
+/* Journal History Table */
+.historyTable {
+  background-color: black;
+  color: whitesmoke;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(42, 41, 41);
+
+}

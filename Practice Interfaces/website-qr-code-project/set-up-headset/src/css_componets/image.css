@@ -1,0 +1,12 @@
+.calibrateImage {
+    margin-left: auto;
+    margin-right: 0%;
+    width: 80%;
+    object-fit: inherit;
+}
+
+.LicenseImage {
+    margin-left: 0%;
+    margin-right: auto;
+    width: 70%;
+}

@@ -1,0 +1,71 @@
+.contactFormContainer {
+    background-color: rgb(126, 103, 144);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.form {
+    background-color: #b0473d;
+    border-radius: 15px;
+    padding: 3vh;
+    width: 100vh;
+}
+
+.form-control{
+    margin-bottom: 4px;
+}
+
+.form-header{
+    color: white;
+    font-weight: 10px;
+    font-family: "Electrolize";
+    text-align: center;
+}
+
+.labelInput {
+    margin-bottom: 4px;
+}
+
+#contactForm{
+    font-family: "Electrolize";
+}
+
+.form-label {
+    color: white;
+    font-family: "Electrolize";
+}
+
+.checkBox {
+    color: white;
+    font-size: 16px;
+    font-family: "Electrolize";
+    margin-bottom: 14px;
+    text-align: center;
+}
+
+.sendButton {
+    text-align: center;
+    margin-bottom: 4px;
+
+}
+
+.sendBtn {
+    color: white;
+    font-family: "Electrolize";
+    background-color: #482f5b;
+    border: none;
+    border-radius: 5px;
+    width: 400px;
+    
+}
+
+.sendBtn:hover {
+    color: white;
+    font-family: "Electrolize";
+    background-color: #482f5b;
+    border: none;
+    border-radius: 5px;
+    width: 400px;
+}

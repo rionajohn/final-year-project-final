@@ -1,0 +1,53 @@
+.SquarePadding {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.SquareContainerBox {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    background-color: #da2522;
+    border-radius: 5px;
+    padding: 40px;
+}
+
+.windowSquareImg {
+    width: min-content;
+    height: 500px;
+}
+
+.VerticalBreak {
+    width: 40px;
+    height: 500px;
+    background-color: white;
+    border: 10px;
+}
+
+.SquareDescription {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: "Sasoon Primary";
+    color: white;
+    background-color: #da2522;
+    border-radius: 5px;
+    width: 500px;
+    height: 580px;
+    padding: 40px;
+    font-size: 150%;
+}
+
+.SquareOnObject {
+    width: min-content;
+    height: 500px;
+}
+
+.showSquareShapeBtn{
+    color: #da2522;
+    font-weight: bold;
+    border-color: white;
+    border-radius: 5px;
+}

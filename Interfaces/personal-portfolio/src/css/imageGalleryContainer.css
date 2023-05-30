@@ -1,0 +1,20 @@
+.imageGalleryContainer{
+    background-color: #643d66;
+
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+
+.image{
+    width: min-content;
+    height: 50vh;
+    border-radius: 5px;
+}
+
+.caption{
+    color: white;
+    margin-top: 3%;
+    text-align: center;
+    font-family: "Electrolize";
+}

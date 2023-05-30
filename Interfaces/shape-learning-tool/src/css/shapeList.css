@@ -1,0 +1,45 @@
+.ShapesContainer {
+    justify-content: center;
+    text-align: center;
+    padding: 0%;
+}
+
+.col{
+    padding: 0%;
+}
+
+.ShapeLinkToPage{
+    color: black;
+    font-size: 4vh;
+    font-family: "Sasoon Primary";
+    text-decoration: none;
+}
+
+.ShapeLinkToPage:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.square {
+    width: 10vw;
+}
+
+.triangle {
+    width: 10vw;
+}
+
+.circle {
+    width: 10vw;
+}
+
+.heart{
+    width: 10vw;
+}
+
+.rectangle {
+    width: 14vw;
+}
+
+.star {
+    width: 10vw;
+}

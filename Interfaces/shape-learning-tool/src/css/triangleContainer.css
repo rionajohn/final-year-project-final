@@ -1,0 +1,53 @@
+.TrianglePadding {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.TriangleContainerBox {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: black;
+    background-color: #ecb33e;
+    border-radius: 5px;
+    padding: 40px;
+}
+
+.playButtonTriangle {
+    width: min-content;
+    height: 500px;
+}
+
+.VerticalBreak{
+    width: 40px;
+    height: 500px;
+    background-color: white;
+    border: 10px;
+}
+
+.TriangleDescription {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: "Sasoon Primary";
+    color: black;
+    background-color: #ecb33e;
+    border-radius: 5px;
+    width: 500px;
+    height: 580px;
+    padding: 40px;
+    font-size: 150%;
+}
+
+.TriangleOnObject{
+    width: min-content;
+    height: 500px;
+}
+
+.showTriangleShapeBtn{
+    color: #df8004;
+    font-weight: bold;
+    border-color: black;
+    border-radius: 5px;
+}

@@ -1,0 +1,51 @@
+.allProjectsGalleryContainer {
+    background-image: url("../graphics/purple-background.jpg");
+    background-color: #c59de3;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+
+.showcaseTitle {
+    display: block;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Electrolize";
+    text-align: center;
+}
+
+.ProjectContainer {
+    width: 60vw;
+    height: min-content;
+
+    border-radius: 10px;
+
+    position: relative;
+    z-index: 0;
+    margin: auto;
+    background-color: black;
+    padding: 2% 4%;
+}
+
+
+.projectTitle {
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 10px;
+    font-family: "Electrolize";
+}
+
+.projectDescription {
+    color: black;
+    font-size: 20px;
+    border-radius: 10px;
+    font-family: "Baskerville";
+    background-color: #efeded;
+
+    padding: 3%;
+}
