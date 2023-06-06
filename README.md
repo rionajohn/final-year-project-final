@@ -2,7 +2,7 @@
 
 ## Clone the project
 ```
-git clone https://gitlab.cim.rhul.ac.uk/zjac201/PROJECT
+git clone https://github.com/rionajohn/final-year-project-final
 ```
 ## _**Depending on which interface you want to run:**_
 ### **Mental Health Online Journal**
